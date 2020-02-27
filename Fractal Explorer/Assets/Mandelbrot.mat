@@ -39,4 +39,4 @@ Material:
     - _Saturation: 1
     - _Shading: 0
     m_Colors:
-    - _Area: {r: -0.6199857, g: 0.023378292, b: 0.9830402, a: 0.654557}
+    - _Area: {r: 0, g: 0, b: 3.999999, a: 2.663398}
