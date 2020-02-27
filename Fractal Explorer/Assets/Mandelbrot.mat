@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mandelbrot
+  m_Shader: {fileID: 4800000, guid: caf4e7a4ba2867d42af9cc4a77f69f23, type: 3}
+  m_ShaderKeywords: _ANIMATE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Angle: -14.3199835
+    - _Blue: 0
+    - _Breathing: 0
+    - _Density: 0.1936
+    - _Dissolve: 1
+    - _Flood: 0.99
+    - _FloodShape: 0
+    - _Green: 0.8
+    - _Monochrom: 0
+    - _Movement: 0
+    - _Red: 0.75
+    - _Repeats: 31.000002
+    - _Saturation: 1
+    - _Shading: 0
+    m_Colors:
+    - _Area: {r: -0.6199857, g: 0.023378292, b: 0.9830402, a: 0.654557}
