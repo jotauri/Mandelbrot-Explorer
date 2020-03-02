@@ -22,8 +22,8 @@ public class Navigator : MonoBehaviour
 
     void Start()
     {
-        Application.targetFrameRate = 60;
-        QualitySettings.vSyncCount = 0;
+        // Application.targetFrameRate = 60;
+        // QualitySettings.vSyncCount = 0;
         menuControl = FindObjectOfType<MenuControl>();
         shadingType = new string[4];
         shadingType[0] = "None";
@@ -101,7 +101,6 @@ public class Navigator : MonoBehaviour
 
     // important, when sliders are changed by code they call their functions (can't avoid?!)
     // so when we want to change the shader we only have to change the slider
-
     public void FloodSlider(float f)
     {
         material.SetFloat("_Flood", f);

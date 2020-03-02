@@ -24,10 +24,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Angle: -14.3199835
     - _Blue: 0
     - _Breathing: 0
     - _Density: 0.1936
+    - _Detail: 100
     - _Dissolve: 1
     - _Flood: 0.99
     - _FloodShape: 0
@@ -39,4 +39,4 @@ Material:
     - _Saturation: 1
     - _Shading: 0
     m_Colors:
-    - _Area: {r: 0, g: 0, b: 3.999999, a: 2.663398}
+    - _Area: {r: 0, g: 0, b: 3.999882, a: 2.66332}
